@@ -11,7 +11,7 @@ You can assume our engineers have Go and Docker installed to run your applicatio
 
 Summary of API Specification:
 
-he Fetch Rewards Receipt Processor is a Flask-based API that processes digital receipts and calculates reward points based on specific rules. It provides endpoints to submit receipts and retrieve the associated reward points, offering a streamlined way to manage and track digital transactions.
+The Fetch Rewards Receipt Processor is a Flask-based API that processes digital receipts and calculates reward points based on specific rules. It provides endpoints to submit receipts and retrieve the associated reward points, offering a streamlined way to manage and track digital transactions.
 
 Features
 📥 Receipt Submission: Accepts receipt data in JSON format.
@@ -68,21 +68,13 @@ Tech Stack
 Setup & Running Locally
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/fetch-rewards-receipt-processor.git
 cd fetch-rewards-receipt-processor
 Install dependencies:
 
-bash
-Copy
-Edit
+For Requirements.txt
 pip install -r requirements.txt
-Run the Flask app:
 
-bash
-Copy
-Edit
+Run the Flask app:
 python server_main.py
 Test with Postman using http://localhost:5000/receipts/process.
